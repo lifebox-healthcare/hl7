@@ -1,25 +1,20 @@
 hl7
 ===
 
-[![GoDoc](https://godoc.org/fknsrs.biz/p/hl7?status.svg)](https://godoc.org/fknsrs.biz/p/hl7)
-
 Overview
 --------
 
 HL7v2 stands for "Health Level 7: Version 2" - a specification for shuttling
-clinical data around and between medical institutions. While working on
-[Medtasker](http://medtasker.com/) with [Nimblic](https://github.com/nimblic),
-I've written this library for reading the protocol and querying the messages
-it contains.
+clinical data around and between medical institutions.
 
-I have a [blog post](https://www.fknsrs.biz/blog/golang-hl7-library.html) on
-my website if you'd like to hear a bit more of the story.
+Here is a [blog post](https://www.fknsrs.biz/blog/golang-hl7-library.html) describing 
+on HL7
 
 Install
 -------
 
 ```
-$ go get fknsrs.biz/p/hl7
+$ go get github.com/lifebox-healthcare/hl7
 ```
 
 License
